@@ -1,0 +1,92 @@
+*{
+    font-family: 'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.body{
+    background-color: #000513;
+}
+
+.background-banner {
+    background-image: linear-gradient(to right,
+            rgb(0, 0, 0),
+            rgba(0, 0, 0, 0.521),rgb(0, 0, 0)), url(Images/background-banner.jpg);
+    padding: 0 50px;
+    max-height: 100%;
+    background-repeat: no-repeat;
+}
+.lower-sections{
+    background-color: #00081D;
+    padding: 0 3rem;
+}
+.home-content {
+    height: 550px;
+}
+
+.home-content h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.home-content p {
+    font-size: 18px;
+}
+
+.footer-custom ul li {
+    list-style: none;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+.line {
+    display: inline-block;
+    width: 100%;
+    border-top: 0.2px solid rgb(255, 255, 255);
+  }
+
+  .faq{
+    
+    height: 80px;
+    background-color: #132144;
+  }
+  .faq-align{
+    margin-left: 20px;
+  }
+  .faq:hover{
+    background-color: #19306b;
+    cursor: pointer;
+  }
+  .footer-section ul li{
+    line-height: 40px;
+  }
+#channel::placeholder{
+    color: white;
+}
+#basic-addon2{
+    color: #e50914;
+
+}
+@media only screen and (max-width: 600px) {
+   #lang-btn{
+    display: none;
+   }
+   #img1{
+    width: 400px;
+    height: 300px;
+  }
+  #img2{
+    width: 400px;
+    height: 300px;
+  }
+  #img3{
+    width: 400px;
+    height: 300px;
+  }
+  #img4{
+    width: 430px;
+    height: 270px;
+  }
+  #plus{
+    display: none;
+  }
+}

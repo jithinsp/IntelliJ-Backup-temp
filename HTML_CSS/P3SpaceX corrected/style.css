@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "D-DIN-Regular", Arial, Verdana, sans-serif;
+}
+
+.main-nav {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 30px;
+    font-weight: 900;
+    font-size: 12px;
+    align-items: end;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+
+}
+.img-for-nav{
+    background-image: linear-gradient(to right, #404040,#71645c,#3D3F3E);
+}
+
+.main-menu {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.side-menu {
+    display: flex;
+    width: 5%;
+    justify-content: space-between;
+}
+
+.main-nav a {
+    text-decoration: none;
+}
+
+.main-nav ul li {
+    list-style: none;
+    justify-content: space-between;
+}
+
+.main-nav ul li a:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+.main-nav img {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.watch {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px 30px;
+    width: 120px;
+    margin-top: 15px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.learn-more {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px 30px;
+    width: 170px;
+    margin-top: 15px;
+}
+
+.section1 {
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Vandy_desktop1_686164ccc7.jpg");
+    background-size: cover;
+    height: 635px;
+    width: 100%;
+    text-align: left;
+    /* position: relative; */
+}
+
+.section1-in {
+    justify-content: baseline;
+    text-align: justify;
+    /* margin: 200px 80px; */
+    padding: 200px 80px;
+}
+
+.section2 {
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Intelsat40e_causeway_DSC_0385_desktop_f2530f7f25.jpg");
+    background-size: cover;
+    height: 635px;
+    width: 100%;
+}
+
+.section3 {
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/S20_Chopstick_Stack_Desktop_0c016b49ec.webp");
+    background-size: cover;
+    height: 635px;
+    width: 100%;
+}
+
+.section4 {
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Homepage_Desktop_5ebdeb0c6c.webp");
+    background-size: cover;
+    height: 635px;
+    width: 100%;
+}
+
+.section2-in {
+    padding: 200px 80px;
+    text-align: left;
+}
+
+.section3-in {
+    padding: 400px 80px;
+    text-align: left;
+}
+
+.section4-in {
+    padding: 200px 80px;
+    text-align: left;
+}
+
+
+.links {
+    background-color: black;
+    height: 100px;
+    text-align: center;
+}
+
+
+.foot-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links ul {
+    list-style: none;
+    padding: 50px 250px;
+    font-size: .7rem;
+    font-weight: 900;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+ .btn:hover {
+    background-color: #ffffff;
+    color: #000;
+    cursor: pointer;
+} 

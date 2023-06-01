@@ -1,0 +1,597 @@
+/* font-family: 'Anton', sans-serif; */
+/* color:white; */
+body{
+    text-align: center;
+    position: relative;
+}
+
+.lefty{
+    text-align: left;
+    margin-left: 35%;
+}
+
+
+.left-text{
+    text-align: left;
+}
+
+.black{
+    color: black;
+}
+
+.white{
+    color: white;
+}
+
+.grey{
+    color: grey;
+}
+
+.fit{
+    position: relative;
+}
+
+a:hover{
+    text-decoration: solid white;
+}
+
+.h1big{
+    font-size: 50px;
+}
+
+.pbig{
+    font-size: 16px;
+}
+
+.opacity-nav{
+    opacity: 50%;
+}
+
+.font{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.p20{
+    font-size:18px;
+}
+/* Navbar */
+
+
+
+#navbar{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    font-size:medium;
+    /* padding-top: 1%; */
+    padding-left: 4%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+}
+
+.navbar-brand{
+    margin-left:50px;
+    margin-bottom: 10px;
+}
+
+li{
+    padding:0 10px;
+}
+
+li:hover{
+    text-decoration-style: solid;
+}
+
+.text{
+    position:absolute;
+    width:50%;
+    bottom: 25%;
+    left: 5%;
+}
+
+
+/* First-div */
+
+.text h4{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight:1; /*Need this more thin*/
+    font-size: 1.4rem;
+}
+
+.text h2{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 800;
+    font-size:3rem;
+    line-height: 1.5;
+}
+
+.text button{
+    padding: 2% 6%;
+    font-size: medium;
+    border-radius: 0;
+    border-width: 2px;
+    font-weight: 700;
+}
+
+img{
+    height:100%;
+    width: 100%
+}
+
+.image{
+    height: 50%;
+}
+
+
+
+
+/* Second div */
+
+/* Third div */
+
+/* Fourth div */
+
+/* Fifth div */
+
+.nasa-text{
+    width: 40%;
+}
+
+.nasa-text button{
+    padding:3% 5%;
+}
+
+#nasa .text{
+    position:absolute;
+    width:50%;
+    bottom: 5%;
+    left: 5%;
+}
+
+/* Sixth div */
+#contacts{
+    background-color: black;
+
+}
+
+.container{
+    padding: 3% 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: small;
+}
+
+.row{
+    text-align: center;
+}
+
+.col{
+    padding: 0% 0%;
+}
+
+#contacts a{
+    color:white;
+    text-decoration:none;
+}
+
+/*
+Use it in media query
+.tag{
+    padding-bottom: 2%;
+} */
+
+
+
+/* HUMANSPACE PAGE */
+
+/* first-div */
+.image-astro{
+    position: relative;
+    height: auto;
+    padding-top:8%;
+}
+
+#humanSpace .text{
+    position:absolute;
+    text-align: center;
+    width:80%;
+    bottom:37%;
+}
+
+#humanSpace h2{
+    font-size: 100px;
+}
+
+#humanSpace h4{
+    font-weight: 50px;
+}
+
+/* second-div */
+.msg{
+    font-size: medium;
+    text-align: center;
+    font-weight: 10;
+}
+
+/* third-div */
+.earth{
+    padding-top: 10%;
+    position: relative;
+    transform: rotate(90deg);
+    height: 95%;
+    width: 110%;
+}
+
+
+#earth .text{
+    position: relative;
+    text-align: left;
+    padding-top: 15%;
+}
+
+/* fourth div */
+.sata-img{
+    position: relative;
+    height: 100%;
+    width: 90%;
+}
+
+#satellite .text{
+    position: relative;
+    text-align: left;
+    padding-top: 15%;
+}
+
+/* Fifth div */
+.moon{
+    transform: rotate(-25deg);
+    height: 100%;
+    width: 100%;
+    border-radius: 60%;
+}
+
+#moon .text{
+    position: relative;
+    text-align: left;
+    padding-top: 15%;
+}
+
+/* Sixth div */
+.mars{
+    position: relative;
+    height: 100%;
+    width: 90%;
+    left:100%;
+}
+
+#mars .text{
+    position: relative;
+    text-align: left;
+    padding-top: 15%;
+}
+
+/* Seventh div */
+.line{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    margin-top:0 ;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size:100px;
+}
+
+#line p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: center;
+}
+
+#line button{
+    align-items: center;
+    padding: 2% 5%;
+    font-size: medium;
+    border-radius: 0;
+    border-width: 2px;
+    font-weight: 700;
+}
+
+/* Starlink page */
+
+#first-satellite{
+    position: relative;
+}
+
+
+#first-satellite h1{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 50px;
+    
+}
+
+#first-satellite p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.starlink-image{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#starlink-text{
+    position:absolute;
+    text-align: center;
+    width:100%;
+    bottom:37%;
+}
+
+#starlink-text h1{
+    font-size: 100px;
+}
+
+#input-starlink-button{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: small;
+    height: 50px;
+    width: 8%;
+    margin-left: 2%;
+    border-radius: 5px;
+    z-index: 0;
+}
+
+#input-starlink-input{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    width: 30%;
+    height:50px;
+    font-size: small;
+    background-color: transparent;
+    margin-left: 30%;
+    padding-left: 20px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.firstdiv-link p{
+    text-align: center;
+}
+
+.firstdiv-link p a{
+    text-decoration: none;
+}
+
+.firstdiv-link p a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+.private:hover{
+    color:white;
+}
+
+/* second div */
+#house{
+    position: relative;
+}
+
+#image-house{
+    height: 500px;
+    width: 100%;
+}
+
+#house-text{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    position: absolute;
+    background-color: transparent;
+    width: 40%;
+    top:300px;
+    right: 25px;
+    line-height: 1.5;
+}
+
+#house-text h1{
+    font-size: 57px;
+}
+
+#house-button{
+    border-radius: 5%;
+    width: 35%;
+    height:55px;
+    font-size: small;
+}
+
+/* third div */
+#setup-text a{
+    color:white;
+}
+
+#setup h2{
+    font-size: 50px;
+}
+
+#setup p{
+    font-size: 16px;
+    font-weight: 10;
+}
+
+#setup .col{
+    padding:5%;
+}
+
+#setup-img{
+    height: 120%;
+    width: 120%;
+    padding-left: 0;
+}
+#setup-text{
+    text-align: left;
+    padding-top: 10%;
+}
+
+#page-button{
+    border-radius: 2%;
+    margin:2%;
+    font-size: 17px;
+}
+
+/* InfoDIv */
+#ideal .col{
+    padding:5%;
+}
+
+#ideal-text{
+    text-align: left;
+}
+
+#ideal-text h2{
+    font-size: 50px;
+}
+
+#ideal-text p{
+    font-size: 16px;
+}
+
+/* Night */
+
+#night{
+    position: relative;
+}
+
+#info-img{
+    height:auto;
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+#night-text{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    position: absolute;
+    background-color: transparent;
+    width: 30%;
+    top:300px;
+    left: 185px;
+    line-height: 1.5;
+}
+
+/* Clean */
+#clean .col{
+    padding:7%;
+} 
+
+#clean-img{
+    height: 110%;
+    width: 130%;
+}
+
+/* Last */
+#enginr .col{
+    padding:2%;
+}
+
+#enginr-text{
+    text-align: left;
+}
+
+
+/* FALCON 9 NEW PAGE */
+/* FIRST DIV */
+#landing{
+    position: relative;
+}
+
+#falcon-text{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    position:absolute;
+    text-align: center;
+    width:100%;
+    top:12%;
+}
+
+#falcon-text h1{
+    font-size: 100px;
+}
+
+
+#falcon-text p{
+    font-size: 20px;
+}
+
+
+
+/* Counter */
+#counter h1{
+    font-size: 100px;
+}
+
+#counter p{
+    font-size: 25px;
+}
+
+/* Carousels */
+
+.slider-text{
+    text-align: center;
+}
+
+/* FLACON HEAVY */
+#perform-text{
+    text-align: left;
+}
+
+#perform img{
+    height: 120%;
+}
+
+/* STARSHIP */
+#ship-page{
+    position: relative;
+}
+
+#starship-text{
+    position:absolute;
+    width:50%;
+    bottom: 20%;
+    left: 5%;
+    z-index: 0;
+}
+
+#btn-yes{
+    border-radius: 0%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: medium;
+    padding: 1% 2%;
+}
+
+#info p{
+    text-align: left;
+    font-size: 15px;
+}
+
+/* DRAGON */
+
+#astro-text{
+    text-align: left;
+    margin-top: 10%;
+}
+
+/* ENGINES */
+
+#merlin{
+    height: 100%;
+    width: 60%;
+}
+
+/* ANIMATION */
+.cssanimation, .cssanimation span {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+
+/* .cssanimation span { display: inline-block } */
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}

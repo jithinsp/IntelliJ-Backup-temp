@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- Home section -->
+    <section>
+        <div class="container-fluid background-banner">
+            <!-- Navbar -->
+            <div class="d-flex justify-content-between ">
+                <div class="ms-5 mt-3 "><img class="logo" src="./Images/logo.png" width="132" height="39" alt="Images">
+                </div>
+                <div class="me-4 mt-3">
+                    <button type="button" class="btn btn-outline-light "><i class="bi bi-globe2 me-2"></i><span id="lang-btn">English</span> <i
+                            class="bi bi-caret-down-fill"></i></button>
+                    <button type="button" class="btn btn-danger ps-4 pe-4">Sign In</button>
+                </div>
+            </div>
+            <div class="d-flex justify-content-left align-items-center home-content">
+                <div class="home text-white">
+
+                    <h1 class="fw-bold text-start my-3">Unlimited movies, TV&nbsp;shows and more.</h1>
+                    <h4 class="text-start mt-3 my-3">Watch anywhere. Cancel anytime.</h4>
+                    <p class="fw-bold text-start my-3">Ready to watch? Enter your email to create or restart your membership.</p>
+                    <div class="input-group mb-3 w-50">
+                        <input id="channel" type="text" class="form-control p-3 bg-dark text-white " placeholder="Email address"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <button type="button" onclick="welcomeChannel()"
+                            class="btn button bg-danger text-white fw-bold ps-2 pe-2 ms-2" id="basic-addon2">Get
+                            started ></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Second section -->
+    <section>
+    <div class="container-fluid text-white lower-sections">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-12 col-lg-6 col-xl-6 mt-5 p-5 ">
+                    <h2 class="fs-1 fw-bold">Enjoy on your TV.</h2>
+                    <p style="font-size: 25px;">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+                        players and more.</p>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6 mt-5">
+                    <img class="netflix-content" id="img1"
+                        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/enjoyOnTv/en.png"
+                        width="550" height="400"  alt="">
+                </div>
+            </div>
+            <span class='line'></span> 
+        </div>
+    </div>
+
+    <!-- Third section -->
+
+    <div class="container-fluid text-white lower-sections">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6 mt-5">
+                    <img class="ms-5 netflix-content" id="img2"
+                        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/watchEverywhere/en.png"
+                        width="500" height="400" alt="banner">
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6" style="margin-top: 130px;">
+                    <h1>Watch everywhere.</h1>
+                    <p class="fs-4">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                </div>
+            </div>
+            <span class='line'></span> 
+        </div>
+    </div>
+    <!-- fourth section -->
+    <div class="container-fluid text-white lower-sections">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6" style="margin-top: 130px;">
+                    <h1 class="ms-5">Create profiles for children.</h1>
+                    <p class="fs-4 ms-5">Send children on adventures with their favourite characters in a space made
+                        just for them—free with your membership. </p>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6 mt-5">
+                    <img class="netflix-content" id="img3"
+                        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/kids/en-GB.png"
+                        width="500" height="350" alt="banner">
+                </div>
+            </div>
+            <span class='line'></span> 
+        </div>
+    </div>
+    <!-- fifth-section -->
+    <div class="container-fluid text-white lower-sections">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6 mt-5">
+                    <img class="ms-5 netflix-content" id="img4"
+                        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/v2.1/download/en.png"
+                        width="500" height="350" alt="banner">
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6" style="margin-top: 130px;">
+                    <h1>Download your shows to watch offline.</h1>
+                    <p class="fs-4">Save your favourites easily and always have something to watch.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- FAQ -->
+<section class="container-fluid text-white lower-sections">
+    <div class="container">
+    <h1 class="pt-5">Frequently Asked Questions</h1>
+    
+    <div class="row faq mt-4 align-items-center">
+        <div class="col-sm-11 ">
+            <h4 class="faq-align">What is Netflix?</h4>
+        </div>
+        <div class="col-sm-1" id="plus">
+            <h1>+</h1>
+        </div>
+    </div>
+
+    <div class="row faq mt-2 align-items-center">
+        <div class="col-sm-11">
+            <h4 class="faq-align">How much does Netflix cost?</h4>
+        </div>
+        <div class="col-sm-1" id="plus">
+            <h1>+</h1>
+        </div>
+    </div>
+
+    <div class="row mt-2 faq align-items-center">
+        <div class="col-sm-11">
+            <h4 class="faq-align">Where can I watch?</h4>
+        </div>
+        <div class="col-sm-1" id="plus">
+            <h1>+</h1>
+        </div>
+    </div>
+
+    <div class="row mt-2 faq align-items-center">
+        <div class="col-sm-11">
+            <h4 class="faq-align">How do I cancel?</h4>
+        </div>
+        <div class="col-sm-1" id="plus">
+            <h1>+</h1>
+        </div>
+    </div>
+
+    <div class="row mt-2 faq align-items-center">
+        <div class="col-sm-11">
+            <h4 class="faq-align">What can I watch on Netflix?</h4>
+        </div>
+        <div class="col-sm-1" id="plus">
+            <h1>+</h1>
+        </div>
+    </div>
+
+    <div class="row mt-2 faq align-items-center">
+        <div class="col-sm-11">
+            <h4 class="faq-align">Is Netflix good for kids?</h4>
+        </div>
+        <div class="col-sm-1" id="plus">
+            <h1>+</h1>
+        </div>
+    </div>
+    <div>
+        <h5 class="py-4"> Ready to watch? Enter your email to create or restart your membership.</h5>
+    </div>
+    <div class="input-group col-sm-6 pe-5 w-50">
+        <input id="channel" type="text" class="form-control p-3 bg-dark" placeholder="Email address"
+            aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <span onclick="welcomeChannel()"
+            class="button input-group-text bg-danger text-white fw-bold ps-2 pe-2 ms-2" id="basic-addon2">Get
+            started ></span>
+    </div>
+</div>
+</section>
+
+    <!-- FAQ end -->
+    <!-- footer -->
+    <footer class="text-white pt-5 pb-5 footer-custom lower-sections" id="footer">
+        <div class="container">
+            <div class="row">
+                <h6 class="mb-4">Questions? Call <a href="#" class="text-white"> 000-800-919-1694</a></h6>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-section">
+                        <ul>
+                            <li><a href="#" class="text-white"> FAQ</a></li>
+                            <li><a href="#" class="text-white"> Investor Relations</a></li>
+                            <li><a href="#" class="text-white"> Privacy</a></li>
+                            <li><a href="#" class="text-white">Speed Test</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-section">
+                        <ul>
+                            <li><a href="#" class="text-white">Help Center</a> </li>
+                            <li><a href="#" class="text-white">Jobs</a></li>
+                            <li><a href="#" class="text-white">Cookie preferences</a></li>
+                            <li><a href="#" class="text-white">Legal Notices</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-section">
+                        <ul>
+                            <li ><a href="#" class="text-white"> Account</a></li>
+                            <li><a href="#" class="text-white"> Ways To Watch</a></li>
+                            <li><a href="#" class="text-white"> Corporate information</a></li>
+                            <li><a href="#" class="text-white"> Only on Netflix</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-section">
+                        <ul >
+                            <li><a href="#" class="text-white"> Media Center</a></li>
+                            <li><a href="#" class="text-white"> Terms of Use</a></li>
+                            <li><a href="#" class="text-white"> Contact Us </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-outline-light my-4"><i class="bi bi-globe2 me-2"></i><span id="lang-btn">English</span>  <i
+                class="bi bi-caret-down-fill"></i></button>
+            <div class="align-items-center">Netflix India</div>
+        </div>
+    </footer>
+    <!-- JS PART -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script>
+
+        function welcomeChannel() {
+            let channel = document.getElementById("channel")
+            if (channel.value === "") {
+                alert("Enter Your Username or Email Address")
+            } else {
+                alert("Welcome " + channel.value)
+                channel.value = ""
+            }
+        }
+    </script>
+    <!-- JS link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
